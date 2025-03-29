@@ -15,6 +15,7 @@ header {
 .subheader {
     font-size: 1.75rem;
     margin: 0;
+    margin-bottom: 10px;
     font-style: italic;
 }
 #image-container {
@@ -29,7 +30,9 @@ header {
     width: 80%;
     background-color: gainsboro;
     border-radius: 10px;
+    padding: 10px;
 }
+
 img {
     border: 2px black solid;
     border-radius: 10px;
@@ -43,7 +46,22 @@ img {
 
 .menu-card {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888;
+    padding: 10px;
 }
+
+.menu-item-name {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-block: 0;
+}
+
+.menu-item-description {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
 #bar-image {
     height: 300px;
     width: 500px;
@@ -57,6 +75,7 @@ img {
 #menu-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
 }
 
 .col1 {

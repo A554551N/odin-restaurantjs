@@ -46,5 +46,51 @@ export default class MenuPage {
         burgerDescription.textContent = "It goes 'choo choo' into YOU";
         burgerDescription.classList.add("menu-item-description");
         burgerCaption.appendChild(burgerDescription);
+
+        const tacoContainer = document.createElement("div");
+        tacoContainer.classList.add("col2","menu-card");
+        menuContainer.appendChild(tacoContainer);
+
+        const tacoJpg = new Image();
+        tacoJpg.src = tacosImg;
+        tacoJpg.classList.add("menu-image");
+        tacoContainer.appendChild(tacoJpg);
+
+        const tacoCaption = document.createElement("div");
+        tacoCaption.classList.add("menu-caption");
+        tacoContainer.appendChild(tacoCaption);
+
+        const tacoName = document.createElement("p");
+        tacoName.textContent = "The Walker Taco";
+        tacoName.classList.add("menu-item-name");
+        tacoCaption.appendChild(tacoName);
+
+        const tacoDescription = document.createElement("p");
+        tacoDescription.textContent = "Walker doesn't run, but you will!";
+        tacoDescription.classList.add("menu-item-description");
+        tacoCaption.appendChild(tacoDescription);
+
+        const friesContainer = document.createElement("div");
+        friesContainer.classList.add("col3","menu-card");
+        menuContainer.appendChild(friesContainer);
+
+        const friesJpg = new Image();
+        friesJpg.src = friesImg;
+        friesJpg.classList.add("menu-image");
+        friesContainer.appendChild(friesJpg);
+
+        const friesCaption = document.createElement("div");
+        friesCaption.classList.add("menu-caption");
+        friesContainer.appendChild(friesCaption);
+
+        const friesName = document.createElement("p");
+        friesName.textContent = "The Rails";
+        friesName.classList.add("menu-item-name");
+        friesCaption.appendChild(friesName);
+
+        const friesDescription = document.createElement("p");
+        friesDescription.textContent = "Goes great with The Cole Train";
+        friesDescription.classList.add("menu-item-description");
+        friesCaption.appendChild(friesDescription);
     }
 }
