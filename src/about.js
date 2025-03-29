@@ -2,6 +2,10 @@ export default class AboutPage {
     renderPage() {
         const content = document.querySelector("#content");
 
+
+        const activeButton = document.querySelector("#about-button");
+        activeButton.classList.add("active");
+
         const pageTitle = document.createElement("h1");
         pageTitle.textContent = "The Badgers Barbecue";
         pageTitle.classList.add("title");

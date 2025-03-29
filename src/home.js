@@ -7,6 +7,8 @@ export default class HomePage {
     }
 
     renderPage() {
+        const homeButton = document.querySelector("#home-button");
+        homeButton.classList.add("active");
         const pageTitle = document.createElement("h1");
         pageTitle.textContent = "The Badgers Barbecue";
         pageTitle.classList.add("title");

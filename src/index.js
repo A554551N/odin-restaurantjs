@@ -10,6 +10,10 @@ homePage.renderPage();
 const content = document.querySelector("#content");
 function clearScreen() {
     content.replaceChildren();
+    const buttonList = document.querySelectorAll("button");
+    for(let button of buttonList) {
+        button.classList.remove("active");
+    }
 }
 
 const homeButton = document.querySelector("#home-button");
