@@ -106,3 +106,7 @@ button {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+button.active {
+    background-color: goldenrod;
+}

@@ -1,9 +1,11 @@
 import "./styles.css";
 import HomePage from "./home.js";
 import MenuPage from "./menu.js";
+import AboutPage from "./about.js";
 const homePage = new HomePage();
 const menuPage = new MenuPage();
-menuPage.renderPage();
+const aboutPage = new AboutPage();
+homePage.renderPage();
 
 const content = document.querySelector("#content");
 function clearScreen() {
@@ -25,4 +27,5 @@ menuButton.addEventListener("click",() => {
 const aboutButton = document.querySelector("#about-button");
 aboutButton.addEventListener("click",() => {
     clearScreen();
+    aboutPage.renderPage();
 })
