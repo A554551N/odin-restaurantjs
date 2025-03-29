@@ -19,9 +19,10 @@ homeButton.addEventListener("click",() => {
 const menuButton = document.querySelector("#menu-button");
 menuButton.addEventListener("click",() => {
     clearScreen();
+    menuPage.renderPage();
 })
 
 const aboutButton = document.querySelector("#about-button");
-menuButton.addEventListener("click",() => {
+aboutButton.addEventListener("click",() => {
     clearScreen();
 })

@@ -1,5 +1,5 @@
 body {
-    background-color: blanchedalmond;
+    background-color: purple;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,8 @@ header {
     flex-direction: column;
     align-items: center;
     width: 80%;
+    background-color: gainsboro;
+    border-radius: 10px;
 }
 img {
     border: 2px black solid;
@@ -35,6 +37,13 @@ img {
     margin-bottom: 2px;
 }
 
+.menu-image {
+    width: 200px;
+}
+
+.menu-card {
+    background-color: white;
+}
 #bar-image {
     height: 300px;
     width: 500px;
