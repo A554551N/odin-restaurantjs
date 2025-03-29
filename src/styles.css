@@ -1,3 +1,54 @@
 body {
-    background-color: green;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 10px;
+}
+.title,.subheader {
+    text-align: center;
+}
+
+#image-container {
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+img {
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+
+#bar-image {
+    height: 300px;
+    width: 500px;
+}
+
+#beer-image {
+    height: 500px;
+    width: 300px;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
