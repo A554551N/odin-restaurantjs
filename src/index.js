@@ -1,7 +1,9 @@
 import "./styles.css";
 import HomePage from "./home.js";
+import MenuPage from "./menu.js";
 const homePage = new HomePage();
-homePage.renderPage();
+const menuPage = new MenuPage();
+menuPage.renderPage();
 
 const content = document.querySelector("#content");
 function clearScreen() {
